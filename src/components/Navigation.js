@@ -1,6 +1,7 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 import { MenuItem } from "./MenuItem";
+import resumeData from "./../constants/resumeData";
 
 const variants = {
   open: {
@@ -12,11 +13,9 @@ const variants = {
 };
 
 export const Navigation = () => (
-  <motion.ul variants={variants}>
-    {itemIds.map(i => (
-      <MenuItem i={i} key={i} />
+  <motion.ul className="navlist" variants={variants}>
+    {resumeData['navigation'].map((item, i) => (
+      <MenuItem i={i} key={i} item={item} />
     ))}
   </motion.ul>
 );
-
-const itemIds = [0, 1, 2, 3, 4];
