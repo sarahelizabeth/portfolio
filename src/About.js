@@ -7,7 +7,7 @@ import './scss/about.scss';
 export const About = () => {
 
   return (
-    <div className="container">
+    <section id="about" className="container">
       <div className="row">
         {
           resumeData['skills'].map((item, i) => (
@@ -15,6 +15,6 @@ export const About = () => {
           ))
         }
       </div>
-    </div>
+    </section>
   );
 };

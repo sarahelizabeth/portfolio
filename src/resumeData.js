@@ -61,7 +61,7 @@ let resumeData = {
     {
       "name": "DePaul University",
       "degreeType": "MA & MEd",
-      "specialization": "Mathematics Education",
+      "specialization": "Secondary Education, Specialization in Mathematics",
       "startMonth": "September",
       "startYear": "2017",
       "endMonth": "June",

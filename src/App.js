@@ -1,18 +1,16 @@
-import logo from './logo.svg';
 import { NavSidebar } from './NavSidebar';
 import { Home } from './Home';
 import { About } from './About';
+import { Education } from './Education';
 //import './scss/App.scss';
 
 function App() {
   return (
     <>
-    <div className="App">
-    <About />
+      <Home />
+      <About />
+      <Education />
       <NavSidebar />
-
-
-    </div>
     </>
   );
 }
