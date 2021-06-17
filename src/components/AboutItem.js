@@ -5,7 +5,6 @@ export const AboutItem = ({ i, item }) => {
     <div className="col-md-4">
       <h4>{item.title}</h4>
       <h6>{item.description}</h6>
-      <h5>{item.subTitle}</h5>
       <h6>{item.listTitle}</h6>
       <ul className="skillsList">
         {

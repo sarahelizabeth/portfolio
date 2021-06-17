@@ -1,8 +1,9 @@
 import * as React from "react";
+import { Timeline, Icon } from 'rsuite';
 
 export const EducationItem = ({ i, item }) => {
   return (
-    <div className="col-md-6">
+    <Timeline.Item dot={<Icon icon="credit-card" size="2x" />}>
       <h4>{item.name}</h4>
       <h6>{item.degreeType}</h6>
       <h5>{item.specialization}</h5>
@@ -15,6 +16,6 @@ export const EducationItem = ({ i, item }) => {
           <p>{item.endMonth} {item.endYear}</p>
         </div>
       </div>
-    </div>
+    </Timeline.Item>
   );
 };

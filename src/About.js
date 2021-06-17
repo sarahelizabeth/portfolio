@@ -2,6 +2,7 @@ import * as React from "react";
 import { AboutItem } from './components/AboutItem';
 import resumeData from "./constants/resumeData";
 
+
 import './scss/about.scss';
 
 export const About = () => {
@@ -15,6 +16,7 @@ export const About = () => {
           ))
         }
       </div>
+
     </section>
   );
 };

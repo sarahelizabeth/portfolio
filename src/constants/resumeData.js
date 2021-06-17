@@ -72,10 +72,10 @@ let resumeData = {
       "name": "MicroTrain",
       "degreeType": "Coding Bootcamp",
       "specialization": "Full-Stack Web Development",
-      "startMonth": "September",
-      "startYear": "2020",
-      "endMonth": "December",
-      "endYear": "2020",
+      "startMonth": "March",
+      "startYear": "2021",
+      "endMonth": "July",
+      "endYear": "2021",
       "Achievements":"Some Achievements"
     },
     {
@@ -130,25 +130,24 @@ let resumeData = {
   "skillsDescription": "Your skills here",
   "skills": [
     {
-      "title": "Designer",
-      "description": "I have over 8 years of design experience, from freelance projects such as custom business cards to branding design for large companies.",
-      "subTitle": "Things I Enjoy Designing:",
-      "subDescription": "UX, UI, Web, Mobile, Apps, Logos, Branding",
-      "listTitle": "Design Tools:",
+      "title": "Data Scientist / Ethical Hacker",
+      "description": "I have over 8 years of white-hat hacking experience, from participating in OpenGov Hackathons to analyzing inmate data at the Cook County Jail and recommending improvements to judges.",
+      "subTitle": "Noteworthy Skills:",
+      "subDescription": "Web Scraping, Machine Learning & AI, Python coding, Data Mining & Visualization",
+      "listTitle": "My Hacking & Data Tools:",
       "list": [
-        "Figma",
-        "InDesign",
-        "Webflow",
-        "Balsamiq Mockups",
-        "Pen & Paper"
+        "Python scraping tools like Selenium & Scrapy",
+        "AWS Data tools: Redshift, Lambda, DynamoDB, and RDS",
+        "Visualization tools: Pandas, Tableau, and MatPlotLib",
+        ""
       ]
     },
     {
-      "title": "Front-End Developer",
-      "description": "I enjoy coding things from scratch as well as learning about and implementing new tools and technologies.",
+      "title": "Full-Stack Developer",
+      "description": "I enjoy coding things from scratch as well as learning about and implementing new tools, frameworks, and technologies.",
       "subTitle": "Languages I Use:",
       "subDescription": "HTML5/CSS, JavaScript, SQL, .NET",
-      "listTitle": "Dev Tools:",
+      "listTitle": "My Dev Tools:",
       "list": [
         "Atom",
         "Github",

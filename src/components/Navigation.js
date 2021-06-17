@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { MenuItem } from "./MenuItem";
 import resumeData from "./../constants/resumeData";
 
+
 const variants = {
   open: {
     transition: { staggerChildren: 0.07, delayChildren: 0.2 }
