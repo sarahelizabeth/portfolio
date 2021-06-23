@@ -11,7 +11,7 @@ export const Experience = () => {
       <h1>Experience</h1>
       <div className="row">
         <AnimateSharedLayout>
-          <motion.ul layout initial={{ borderRadius: 25 }}>
+          <motion.ul layout className="experienceList" initial={{ borderRadius: 25 }}>
             {resumeData['work'].map((item, i) => (
               <ExperienceItem key={i} item={item} />
             ))}
