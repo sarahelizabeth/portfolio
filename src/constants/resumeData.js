@@ -91,47 +91,63 @@ let resumeData = {
   ],
   "work": [
     {
-      "name": "Some Company",
-      "title": "Some specialization",
-      "startMonth": "Jan",
-      "startYear": "2018",
-      "endMonth": "Jan",
-      "endYear": "2020",
+      "name": "DriftNet Securities",
+      "title": "Full-Stack Software Engineer",
+      "start": "Jan 2021",
+      "end": "Present",
       "description": "Some Achievements"
     },
     {
-      "name": "Some Company",
-      "title": "Some specialization",
+      "name": "Academic Approach",
+      "title": "Math & Computer Science Tutor",
       "startMonth": "Jan",
       "startYear": "2018",
-      "endMonth": "Jan",
+      "endMonth": "October",
       "endYear": "2020",
-      "description": "Some Achievements"
+      "description": "Evaluated students' academic needs in consultation with parents and colleagues to develop specific learning strategies and implement SAT/ACT study plans for individual students."
     },
     {
-      "name": "Some Company",
-      "title": "Some specialization",
-      "startMonth": "Jan",
-      "startYear": "2018",
-      "endMonth": "Jan",
-      "endYear": "2020",
-      "description": "Some Achievements"
+      "name": "NogginLabs, Inc",
+      "title": "Software Engineer",
+      "startMonth": "Dec",
+      "startYear": "2015",
+      "endMonth": "Nov",
+      "endYear": "2016",
+      "description": "Programmed JavaScript-based e-learning web applications with teams of designers and writers to make creative e-learning and adapting solutions according to clients' needs."
     },
     {
-      "name": "Some Company",
-      "title": "Some specialization",
-      "startMonth": "Jan",
-      "startYear": "2018",
-      "endMonth": "Jan",
-      "endYear": "2020",
-      "description": "Some Achievements"
+      "name": "Cook County Sheriff's Office",
+      "title": "Summer Research Fellow",
+      "startMonth": "May",
+      "startYear": "2015",
+      "endMonth": "August",
+      "endYear": "2015",
+      "description": "Researched inmates' lengths of stay in the Cook County Jail in order to improve metrics by which this information is analyzed."
+    },
+    {
+      "name": "FreeGeek Chicago",
+      "title": "Web Developer / Mentor",
+      "startMonth": "Aug",
+      "startYear": "2014",
+      "endMonth": "Nov",
+      "endYear": "2015",
+      "description": "Conceptualized, researched, designed, and coded a web application explaining the Chicago criminal justice system (as contracted by Smart Chicago) while helping newcomers learn how to code."
+    },
+    {
+      "name": "Chicago Tribune",
+      "title": "News Application",
+      "startMonth": "Aug",
+      "startYear": "2014",
+      "endMonth": "Nov",
+      "endYear": "2015",
+      "description": "Designed and programmed dynamic web applications from conception to implementation for a national audience, such as our award-winning multimedia piece \"Chicago Under the Gun.\""
     }
   ],
   "skillsDescription": "Your skills here",
   "skills": [
     {
       "title": "Data Scientist / Ethical Hacker",
-      "description": "I have over 8 years of white-hat hacking experience, from participating in OpenGov Hackathons to analyzing inmate data at the Cook County Jail and recommending improvements to judges.",
+      "description": "I have 8+ years of experience, from participating in OpenGov Hackathons to analyzing inmate data from the Cook County Jail.",
       "subTitle": "Noteworthy Skills:",
       "subDescription": "Web Scraping, Machine Learning & AI, Python coding, Data Mining & Visualization",
       "listTitle": "My Hacking & Data Tools:",
@@ -139,7 +155,7 @@ let resumeData = {
         "Python scraping tools like Selenium & Scrapy",
         "AWS Data tools: Redshift, Lambda, DynamoDB, and RDS",
         "Visualization tools: Pandas, Tableau, and MatPlotLib",
-        ""
+        "Machine learning tools: PyTorch, Anaconda, CNNs, and SageMaker"
       ]
     },
     {
@@ -152,13 +168,12 @@ let resumeData = {
         "Atom",
         "Github",
         "Sass",
-        "Bulma",
+        "React/React Native",
         "Bootstrap",
         "JQuery",
         "Node.js",
-        "Vue.js",
-        "GSAP",
-        "ScrollMagic"
+        "Figma & Sketch",
+        "Framer Motion & GSAP"
       ]
     },
     {
@@ -169,18 +184,19 @@ let resumeData = {
       "listTitle": "Mentor Stats:",
       "list": [
         "5 years experience",
+        "50+ students",
         "2 Graphic Design bootcamps for young women",
         "10 Front-end Dev classes",
         "5 years CS and Math tutoring",
-        "50+ students",
+        "16 students who received a 30+ on the ACT",
         "10+ students who went into the tech field"
       ]
     }
   ],
   "portfolio": [
     {
-      "name":"project1",
-      "description":"mobileapp",
+      "name":"underthegun",
+      "description":"Journalistic Web Application",
       "imgurl":"images/portfolio/phone.jpg"
     },
     {

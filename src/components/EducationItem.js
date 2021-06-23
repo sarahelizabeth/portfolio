@@ -1,9 +1,9 @@
 import * as React from "react";
 import { Timeline, Icon } from 'rsuite';
 
-export const EducationItem = ({ i, item }) => {
+export const EducationItem = ({ i, item, type }) => {
   return (
-    <Timeline.Item dot={<Icon icon="credit-card" size="2x" />}>
+    <Timeline.Item dot={type==='college' ? <Icon icon="mortar-board" size="2x" /> : <Icon icon="code" size="2x" />}>
       <h4>{item.name}</h4>
       <h6>{item.degreeType}</h6>
       <h5>{item.specialization}</h5>

@@ -5,7 +5,7 @@ import { useDimensions } from "./components/useDimensions";
 import { MenuToggle } from "./components/MenuToggle";
 import { Navigation } from "./components/Navigation";
 
-import './scss/navbar.scss';
+import './scss/components/navbar.scss';
 
 const sidebar = {
   open: (height = 1000) => ({

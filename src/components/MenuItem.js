@@ -18,20 +18,20 @@ const variants = {
   }
 };
 
-const colors = ["#FF008C", "#D309E1", "#9C1AFF", "#7700FF", "#4400FF"];
+// const colors = ["#FF008C", "#D309E1", "#9C1AFF", "#7700FF", "#4400FF"];
+const colors = ["#7700FF", "#9C1AFF", "#7F99FF", "#008EFB", "#0033CC", "#FFDB00"];
 
 export const MenuItem = ({ i, item }) => {
-  const style = { border: `2px solid ${colors[i]}` };
+  const borderStyle = { border: `2px solid ${colors[i]}` };
+  const textStyle = { color: colors[i] };
   return (
     <motion.li
       variants={variants}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}
     >
-      <div className="icon-placeholder" style={style} />
-      <div className="text-placeholder" style={style}>
-        <p>{item.title}</p>
-      </div>
+      <div className="icon-placeholder" style={borderStyle} />
+      <h3 style={textStyle}>{item.title}</h3>
     </motion.li>
   );
 };

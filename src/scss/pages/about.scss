@@ -1,0 +1,11 @@
+// About section styling
+@import './../components/variables';
+
+.aboutCard {
+  background-color: $purple;
+  border-radius: 8px;
+
+  .card {
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.6);
+  }
+}
