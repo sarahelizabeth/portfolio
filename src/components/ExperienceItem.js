@@ -1,17 +1,20 @@
-import React from "react";
-import { useState } from "react";
-import { motion, AnimateSharedLayout, AnimatePresence } from "framer-motion";
+import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 export const ExperienceItem = ({ i, item }) => {
   const [isOpen, setIsOpen] = useState(false);
-
   const toggleOpen = () => setIsOpen(!isOpen);
 
   return (
-    <motion.li className="workListItem" layout onClick={toggleOpen} initial={{ borderRadius: 10 }}>
+    <motion.li
+      layout
+      className="workListItem"
+      onClick={toggleOpen}
+      initial={{ borderRadius: 10 }}
+    >
       <motion.div layout>
         <div className="avatar" />
-        <h6>{item.name}</h6>
+        <h6 className="workTitle">{item.name}</h6>
       </motion.div>
       <AnimatePresence>{isOpen && <Content item={item} />}</AnimatePresence>
     </motion.li>
@@ -38,5 +41,3 @@ function Content({ item }) {
     </motion.div>
   );
 }
-
-const items = [0, 1, 2];

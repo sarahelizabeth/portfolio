@@ -1,4 +1,9 @@
 /* Styles for Experience section */
+@import './../components/variables';
+
+#experience {
+  background-color: $bg-purple;
+}
 
 ul,
 li {
@@ -7,7 +12,7 @@ li {
   padding: 0;
 }
 
-ul {
+.workList ul {
   width: 300px;
   display: flex;
   flex-direction: column;
@@ -16,7 +21,7 @@ ul {
   border-radius: 25px;
 }
 
-.workListItem li {
+.workListItem {
   background-color: rgba(214, 214, 214, 0.5);
   border-radius: 10px;
   padding: 20px;
@@ -34,6 +39,7 @@ ul {
   height: 40px;
   background-color: #666;
   border-radius: 20px;
+  display: inline-block;
 }
 
 .workItem {
@@ -42,4 +48,8 @@ ul {
   background-color: #999;
   border-radius: 10px;
   margin-top: 12px;
+}
+
+.workTitle {
+  display: inline-block;
 }
