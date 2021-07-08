@@ -3,6 +3,11 @@
 
 #experience {
   background-color: $bg-purple;
+
+  h1 {
+    font-size: 12rem;
+    color: rgba(255, 255, 255, 0.3);
+  }
 }
 
 ul,
@@ -22,7 +27,7 @@ li {
 }
 
 .workListItem {
-  background-color: rgba(214, 214, 214, 0.5);
+  background-color: rgba(214, 214, 214, 0.7);
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 20px;
@@ -44,9 +49,10 @@ li {
 
 .workItem {
   width: 100%;
-  height: 8px;
-  background-color: #999;
-  border-radius: 10px;
+  // height: 8px;
+  overflow-y: scroll;
+  // background-color: #999;
+  // border-radius: 10px;
   margin-top: 12px;
 }
 

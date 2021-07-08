@@ -100,46 +100,36 @@ let resumeData = {
     {
       "name": "Academic Approach",
       "title": "Math & Computer Science Tutor",
-      "startMonth": "Jan",
-      "startYear": "2018",
-      "endMonth": "October",
-      "endYear": "2020",
+      "start": "Jan 2018",
+      "end": "October 2020",
       "description": "Evaluated students' academic needs in consultation with parents and colleagues to develop specific learning strategies and implement SAT/ACT study plans for individual students."
     },
     {
       "name": "NogginLabs, Inc",
       "title": "Software Engineer",
-      "startMonth": "Dec",
-      "startYear": "2015",
-      "endMonth": "Nov",
-      "endYear": "2016",
+      "start": "Dec 2015",
+      "end": "Nov 2016",
       "description": "Programmed JavaScript-based e-learning web applications with teams of designers and writers to make creative e-learning and adapting solutions according to clients' needs."
     },
     {
       "name": "Cook County Sheriff's Office",
       "title": "Summer Research Fellow",
-      "startMonth": "May",
-      "startYear": "2015",
-      "endMonth": "August",
-      "endYear": "2015",
+      "start": "May 2015",
+      "end": "August 2015",
       "description": "Researched inmates' lengths of stay in the Cook County Jail in order to improve metrics by which this information is analyzed."
     },
     {
       "name": "FreeGeek Chicago",
       "title": "Web Developer / Mentor",
-      "startMonth": "Aug",
-      "startYear": "2014",
-      "endMonth": "Nov",
-      "endYear": "2015",
+      "start": "Aug 2014",
+      "end": "Nov 2015",
       "description": "Conceptualized, researched, designed, and coded a web application explaining the Chicago criminal justice system (as contracted by Smart Chicago) while helping newcomers learn how to code."
     },
     {
       "name": "Chicago Tribune",
       "title": "News Application",
-      "startMonth": "Aug",
-      "startYear": "2014",
-      "endMonth": "Nov",
-      "endYear": "2015",
+      "start": "May 2014",
+      "end": "Aug 2014",
       "description": "Designed and programmed dynamic web applications from conception to implementation for a national audience, such as our award-winning multimedia piece \"Chicago Under the Gun.\""
     }
   ],

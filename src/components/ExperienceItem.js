@@ -1,15 +1,12 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-export const ExperienceItem = ({ i, item }) => {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggleOpen = () => setIsOpen(!isOpen);
-
+export const ExperienceItem = ({ key, item, isOpen, handleClick }) => {
   return (
     <motion.li
       layout
       className="workListItem"
-      onClick={toggleOpen}
+      onClick={handleClick}
       initial={{ borderRadius: 10 }}
     >
       <motion.div layout>

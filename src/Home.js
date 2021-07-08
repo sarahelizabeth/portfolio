@@ -1,6 +1,5 @@
 import * as React from "react";
 import { useRef, useEffect } from "react";
-import { motion, useCycle, AnimateSharedLayout } from "framer-motion";
 import Parallax from 'parallax-js';
 
 import landingImg1 from './images/hero-parallax-01.png';

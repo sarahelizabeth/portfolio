@@ -12,8 +12,8 @@ function App() {
     <>
       <Home />
       <About />
-      <Education />
       <Experience />
+      <Education />
       <NavSidebar />
     </>
   );
